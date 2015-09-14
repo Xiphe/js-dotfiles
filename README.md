@@ -5,7 +5,7 @@ Opinionated dotfiles for new JS projects
 
 ```
 git clone git@github.com:Xiphe/js-dotfiles.git js-dotfiles-tmp
-cd js-dotfiles
+cd js-dotfiles-tmp
 rm -rf .git
 rm README.md
 git init
