@@ -4,14 +4,15 @@ JS dotfiles
 Opinionated dotfiles for new JS projects
 
 ```
-git clone git@github.com:Xiphe/js-dotfiles.git
+git clone git@github.com:Xiphe/js-dotfiles.git js-dotfiles-tmp
 cd js-dotfiles
 rm -rf .git
+rm README.md
 git init
 git add .
 git commit -m'initiate dotfiles' -m'https://github.com/Xiphe/js-dotfiles'
 cd ..
-mv js-dotfiles my-project-name
+mv js-dotfiles-tmp my-project-name
 ```
 
 LICENSE
