@@ -15,6 +15,24 @@ cd ..
 mv js-dotfiles-tmp my-project-name
 ```
 
+### Old JSHint + JSCS Version
+
+_deprecated_
+
+```
+git clone git@github.com:Xiphe/js-dotfiles.git js-dotfiles-tmp
+cd js-dotfiles-tmp
+git reset 408b27a6696662a221537496ef7f208c9c6bf241 --hard
+rm -rf .git
+rm README.md
+git init
+git add .
+git commit -m'initiate dotfiles' -m'https://github.com/Xiphe/js-dotfiles'
+cd ..
+mv js-dotfiles-tmp my-project-name
+```
+
+
 LICENSE
 -------
 
