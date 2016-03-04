@@ -4,8 +4,27 @@ JS dotfiles
 Opinionated dotfiles for new JS projects
 
 ```
+git clone git@github.com:Xiphe/js-dotfiles.git my-project-name &&
+cd my-project-name &&
+rm -rf .git &&
+rm README.md &&
+git init &&
+git add . &&
+git commit -m'chore(js-dotfiles): initiate dotfiles' -m'https://github.com/Xiphe/js-dotfiles' &&
+npm init &&
+npm install --save-dev eslint-config-airbnb eslint &&
+git add . &&
+git commit -m'chore(package): add package.json'
+```
+
+### Old custom eslint Version
+
+_deprecated_
+
+```
 git clone git@github.com:Xiphe/js-dotfiles.git js-dotfiles-tmp
 cd js-dotfiles-tmp
+git reset d3702c42ce4c591047cc35553ae5a31918ff0ab1 --hard
 rm -rf .git
 rm README.md
 git init
