@@ -1,7 +1,7 @@
 JS dotfiles
 -----------
 
-Opinionated dotfiles for new JS projects
+Quick setup for new Node.js projects
 
 ```
 git clone git@github.com:Xiphe/js-dotfiles.git my-project-name &&
@@ -12,7 +12,7 @@ git init &&
 git add . &&
 git commit -m'chore(js-dotfiles): initiate dotfiles' -m'https://github.com/Xiphe/js-dotfiles' &&
 npm init &&
-npm install --save-dev --save-exact eslint-config-airbnb eslint-plugin-react eslint &&
+npm install --save-dev --save-exact eslint-config-airbnb-base eslint-plugin-import eslint &&
 git add . &&
 git commit -m'chore(package): add package.json'
 ```
