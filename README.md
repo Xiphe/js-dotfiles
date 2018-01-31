@@ -13,7 +13,7 @@ git init &&
 git add . &&
 git commit -m'chore(js-dotfiles): initiate dotfiles' -m'https://github.com/Xiphe/js-dotfiles' &&
 npm init &&
-npm install --save-dev --save-exact eslint-config-airbnb-base eslint-plugin-import eslint &&
+npm install --save-dev --save-exact eslint-config-airbnb-base eslint-plugin-import eslint-config-prettier eslint-plugin-prettier prettier eslint &&
 git add . &&
 git commit -m'chore(package): add package.json'
 ```
